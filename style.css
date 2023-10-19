@@ -18,12 +18,14 @@ canvas {
 .details {
   min-height: 100vh;
   display: flex;
+  /* mn dapu test eka */
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   font-size: 2rem;
 }
 
-.ball-text {
+.labText {
   position: fixed;
   z-index: 2;
   color: white;
@@ -34,7 +36,7 @@ canvas {
 }
 
 @media screen and (max-width: 1024px) {
-  .ball-text {
+  .labText {
     font-size: 2rem;
     right: 50%;
     bottom: 25%;

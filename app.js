@@ -30,7 +30,7 @@ gsap.to(ball, {
 });
 
 gsap.fromTo(
-  ".ball-text",
+  ".labText",
   {
     opacity: 0,
   },
@@ -39,11 +39,11 @@ gsap.fromTo(
     scrollTrigger: {
       scrub: 1,
 
-      start: "50%",
-      end: "60%",
+      start: "55%",
+      end: "65%",
     },
     onComplete: () => {
-      gsap.to(".ball-text", { opacity: 0 });
+      gsap.to(".labText", { opacity: 0 });
     },
   }
 );

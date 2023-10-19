@@ -1,3 +1,10 @@
+var loader = document.getElementById("preLoader");
+
+window.addEventListener("load", function () {
+    loader.style.display = "none";
+});
+
+
 const canvas = document.querySelector(".canvas");
 canvas.width = window.innerWidth;
 canvas.height = window.innerHeight;

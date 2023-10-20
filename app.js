@@ -20,7 +20,7 @@ let ball = { frame: 0 };
 for (let i = 0; i < frameCount; i++) {
   const img = new Image();
   img.src = currentFrame(i);
-  console.log(currentFrame(i));
+  // console.log(currentFrame(i));
   images.push(img);
 }
 
@@ -46,8 +46,8 @@ gsap.fromTo(
     scrollTrigger: {
       scrub: 1,
 
-      start: "55%",
-      end: "65%",
+      start: "58%",
+      end: "71%",
     },
     onComplete: () => {
       gsap.to(".labText", { opacity: 0 });

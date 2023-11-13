@@ -282,6 +282,80 @@ h1 {
   transition: 0.3s;
 }
 
+
+/* customer feedbacks */
+
+.testimonial {
+  border: 2px dashed var(--textColor);
+  /* border-top: 3px solid #c9ced3; */
+  padding: 70px 25px 100px;
+  margin-bottom: 30px;
+  position: relative;
+}
+
+.testimonial:after {
+  content: "\f10d";
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  font-size: 30px;
+  color: var(--text-hover-color);
+  position: absolute;
+  top: 20px;
+  left: 25px;
+}
+
+.testimonial .description {
+  font-size: 18px;
+  color: #3d1107;
+  line-height: 28px;
+}
+
+.testimonial .pic {
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  bottom: -30px;
+  left: 25px;
+}
+
+.testimonial .pic img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  background-position: center;
+  border: 2px solid var(--textColor);
+}
+
+.testimonial .testimonial-title {
+  font-size: 22px;
+  color: var(--textColor);
+  position: absolute;
+  bottom: 20px;
+  left: 150px;
+}
+
+.testimonial .testimonial-title small {
+  display: block;
+  font-size: 15px;
+  color: var(--text-hover-color);
+  margin-top: 7px;
+}
+
+.owl-theme .owl-controls .owl-page.active span {
+  background: var(--text-hover-color);
+}
+
+.ourClientsSvg {
+  width: 40%;
+  height: 40%;
+  object-fit: contain;
+  background-position: center;
+  position: relative;
+}
+
+/* customer feedbacks */
+
+
 @media screen and (max-width: 1440px) {
   .labText {
     font-size: 10rem;

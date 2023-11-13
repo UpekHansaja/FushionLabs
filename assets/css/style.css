@@ -267,7 +267,7 @@ h1 {
   transition: 0.3s;
   top: 40px;
   position: relative;
-  filter: grayscale(.8);
+  filter: grayscale(0.8);
 }
 
 .serviceCard:hover {
@@ -278,20 +278,40 @@ h1 {
 
 .serviceCard:hover .imageHalf {
   transform: scale(1.03);
-  filter: grayscale(.3);
+  filter: grayscale(0.3);
   transition: 0.3s;
 }
 
 /* testimonials  */
 
-.swiper-button-next{
-  color: #fff;
+.swiper-button-next {
+  color: #000;
 }
-.swiper-button-prev{
-  color: #fff;
+.swiper-button-next:hover {
+  cursor: pointer;
 }
-.swiper-pagination-bullet-active{
-  background-color: #fff;
+.swiper-button-prev {
+  color: #000;
+}
+
+.swiper-button-prev:hover {
+  cursor: pointer;
+}
+
+.swiper-pagination-bullet-active {
+  background-color: #000;
+}
+
+.clientImg {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 50%;
+  background-position: top;
+}
+
+.swiper-slide {
+  /* height: 60vh; */
 }
 
 /* testimonials  */

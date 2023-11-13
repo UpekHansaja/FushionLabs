@@ -278,8 +278,14 @@ h1 {
 
 .serviceCard:hover .imageHalf {
   transform: scale(1.03);
-  filter: grayscale(0.3);
+  filter: grayscale(0.1) !important;
   transition: 0.3s;
+}
+
+.section{
+  height: 90vh;
+  display: flex;
+  align-items: center;
 }
 
 /* testimonials  */
@@ -303,16 +309,24 @@ h1 {
 }
 
 .clientImg {
-  width: 150px;
-  height: 150px;
+  width: 200px;
+  height: 200px;
   object-fit: cover;
   border-radius: 50%;
   background-position: top;
+  filter: grayscale(1);
+  transition: .3s;
 }
 
-.swiper-slide {
-  /* height: 60vh; */
+.swiper-slide:hover .clientImg{
+  filter: grayscale(0);
+  transition: .3s;
 }
+
+.clientName{
+  font-size: 1.8rem;
+}
+
 
 /* testimonials  */
 

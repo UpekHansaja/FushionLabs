@@ -46,8 +46,8 @@ gsap.fromTo(
     scrollTrigger: {
       scrub: 1,
 
-      start: "58%",
-      end: "71%",
+      start: "50%",
+      end: "60%",
     },
     onComplete: () => {
       gsap.to(".labText", { opacity: 0 });
